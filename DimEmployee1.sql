@@ -8,7 +8,6 @@ create table [dbo].[DimEmployee](
 	[LastName] [nvarchar](50) not null,
 	[MiddleName] [nvarchar](50) null,
 	[NameStyle] [bit] not null,
-	[Title] [nvarchar](50) null,
 	[HireDate] [date] null,
 	[LoginID] [nvarchar](256) null,
 	[EmailAddress] [nvarchar](50) null,
