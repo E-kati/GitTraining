@@ -5,6 +5,7 @@ CREATE TABLE [dbo].[FactInternetSales](
 	[CustomerKey] [int] NOT NULL,
         [CustomerKey] [int] NOT NULL,
 	[PromotionKey] [int] NOT NULL,
+        [PromotionKey] [int] NOT NULL,
 	[CurrencyKey] [int] NOT NULL,
 	[SalesTerritoryKey] [int] NOT NULL,
 	[SalesOrderNumber] [nvarchar](20) NOT NULL,
