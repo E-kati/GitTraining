@@ -1,9 +1,9 @@
 CREATE TABLE [dbo].[FactInternetSales](
 	[ProductKey] [int] NOT NULL,
-	[OrderDateKey] [int] NOT NULL,
 	[DueDateKey] [int] NOT NULL,
 	[ShipDateKey] [int] NOT NULL,
 	[CustomerKey] [int] NOT NULL,
+        [CustomerKey] [int] NOT NULL,
 	[PromotionKey] [int] NOT NULL,
 	[CurrencyKey] [int] NOT NULL,
 	[SalesTerritoryKey] [int] NOT NULL,
